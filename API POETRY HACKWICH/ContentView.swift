@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(authors, id: \.self) { author in
-                NavigationLink(destination: Text(author)) {
+                NavigationLink(destination: PoemsView(author: author)) {
                     Text(author)
                 }
             }

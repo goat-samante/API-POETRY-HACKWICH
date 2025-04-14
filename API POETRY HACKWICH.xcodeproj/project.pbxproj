@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D5FE140A2DAC84DB00B6284D /* PoemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE14092DAC84DB00B6284D /* PoemsView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D5FE13ED2DAC7F8400B6284D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		D5FE13DC2DAC7F8200B6284D /* API POETRY HACKWICH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API POETRY HACKWICH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FE13EC2DAC7F8400B6284D /* API POETRY HACKWICHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API POETRY HACKWICHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FE13F62DAC7F8400B6284D /* API POETRY HACKWICHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API POETRY HACKWICHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FE14092DAC84DB00B6284D /* PoemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		D5FE13D32DAC7F8200B6284D = {
 			isa = PBXGroup;
 			children = (
+				D5FE14092DAC84DB00B6284D /* PoemsView.swift */,
 				D5FE13DE2DAC7F8200B6284D /* API POETRY HACKWICH */,
 				D5FE13EF2DAC7F8400B6284D /* API POETRY HACKWICHTests */,
 				D5FE13F92DAC7F8400B6284D /* API POETRY HACKWICHUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FE140A2DAC84DB00B6284D /* PoemsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
